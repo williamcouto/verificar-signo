@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+h1{
+    font-family: 'Plus Jakarta Sans',  Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 11px;
+}
+
+body{
+    background-color: #CDD1C4;
+    padding: 30px;
+    font-family: 'Plus Jakarta Sans' ,Arial, Helvetica, sans-serif;
+}
+
+.container_sign{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 9px;
+    margin: auto;
+    width: 500px;
+    height: 390px;
+    border-radius: 8px;
+    box-shadow: -7px 8px 29px -8px rgba(0, 0, 0, 0.324);
+}
+
+label{
+    padding: 10px;
+}
+
+input{
+    width: 50px;
+    height: 20px;
+    border: 1px solid #717171;
+    padding: 3px;
+}
+
+span > img{
+    border-radius: 15px;
+    padding: 4px;
+}
+
+span{
+    margin: auto;
+}
+
+input[type="button"]{
+    display: block;
+    background-color: #E8C547;
+    cursor:pointer;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 17px;
+    padding: 6px;
+}
