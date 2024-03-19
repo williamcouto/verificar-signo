@@ -23,10 +23,10 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #ffff;
-    padding: 9px;
+    padding: 11px;
     margin: auto;
     width: 500px;
-    height: 390px;
+    height: 401px;
     border-radius: 8px;
     box-shadow: -7px 8px 29px -8px rgba(0, 0, 0, 0.324);
 }
